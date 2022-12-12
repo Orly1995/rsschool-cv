@@ -1,0 +1,7 @@
+.header {
+    background: red;
+    display: flex;
+}
+.profile-photo{
+    max-width: 150px;
+}
