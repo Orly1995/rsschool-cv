@@ -1,7 +1,97 @@
+/*
+font-family: 'La Belle Aurore', cursive; 
+<style> @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Rajdhani:wght@400;700&display=swap'); </style>
+ */
 .header {
-    background: red;
-    display: flex;
+  background: rgb(93, 138, 182);
+  margin-top: 0px;
+  text-decoration: none;
 }
-.profile-photo{
-    max-width: 150px;
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Rajdhani", sans-serif;
+}
+h2 {
+  font-family: "Rajdhani", sans-serif;
+}
+nav {
+  font-family: "Rajdhani", sans-serif;
+}
+.profile-photo {
+  max-width: 200px;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-top: 15px;
+  background-color: blue;
+}
+.section-profile {
+  display: flex;
+}
+.section-about {
+  text-align: center; 
+  padding-left: 260px;
+  padding-right: 50px;
+  display: flex;
+  background-color: blueviolet;
+}
+.header-container {
+  text-decoration: none;
+  background: rgb(123, 61, 61);
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  font-size: 15px;
+  background-color: rgb(28, 195, 36);
+  padding-right: 50px;
+}
+.nav-menu {
+  padding-right: 12px;
+}
+  /*
+.main-container {
+}
+*/
+.main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.section-cell{
+    overflow: hidden;
+    background-color: azure;
+}
+.left-cell{
+    float: left;
+	width: 48%;
+	background: #fff2e1;
+}
+.right-cell{
+    margin-left: 52%;
+    background: #fff2e1;
+
+}
+.section-contat{
+    float: center;
+    text-align: center;
+background-color: rgb(228, 134, 11);
+}
+.fotter-container {
+    clear: left;
+    background: #000;
+    min-height: 50px;
+  background-color: red;
+  font-family: "Rajdhani", sans-serif;
+}
+.main {
+  background-color: aquamarine;
+  margin: 0 auto;
+  max-width: 1300px;
+  font-family: "Rajdhani", sans-serif;
 }
