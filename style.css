@@ -22,16 +22,21 @@ nav {
 .profile-photo {
   max-width: 200px;
   justify-content: flex-start;
-  padding-left: 30px;
-  padding-top: 15px;
+  border-radius: 100px;
   background-color: blue;
+  padding-left: 0px;
+}
+.main-container{
+  margin-bottom: auto;
 }
 .section-profile {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .section-about {
   text-align: center; 
-  padding-left: 260px;
+  padding-left: 200px;
   padding-right: 50px;
   display: flex;
   background-color: blueviolet;
@@ -56,31 +61,44 @@ nav {
 .main-container {
 }
 */
-.main-title {
+.section-main{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
+  padding-left: 0px;
+  padding-top: 20px;
+  line-height: 1.5;
+}
+.main-title{
+
+text-align: center;
+text-transform: uppercase;
+position: relative;
+}
+.section-subtitle{
+  text-align: center;
 }
 
 .section-cell{
     overflow: hidden;
     background-color: azure;
+    line-height: 1.5;
 }
 .left-cell{
     float: left;
 	width: 48%;
 	background: #fff2e1;
+  line-height: 1.5;
 }
 .right-cell{
     margin-left: 52%;
     background: #fff2e1;
+    line-height: 1.5;
 
 }
 .section-contat{
     float: center;
     text-align: center;
 background-color: rgb(228, 134, 11);
+line-height: 1.5;
 }
 .fotter-container {
     clear: left;
@@ -94,4 +112,5 @@ background-color: rgb(228, 134, 11);
   margin: 0 auto;
   max-width: 1300px;
   font-family: "Rajdhani", sans-serif;
+  line-height: 1.5;
 }
